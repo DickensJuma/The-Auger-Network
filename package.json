@@ -76,6 +76,9 @@
     },
     "npm": {
       "publish": false
+    },
+    "engines": {
+      "node": "10.19.0"
     }
   }
 }
