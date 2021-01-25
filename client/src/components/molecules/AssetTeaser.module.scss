@@ -1,0 +1,107 @@
+@import '../../styles/variables';
+
+.asset {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+
+    > a {
+        display: block;
+        height: 100%;
+        padding: $spacer;
+        border: 1px solid $brand2;
+        border-radius: $border-radius;
+        background: $brand-white;
+        color: inherit;
+        position: relative;
+
+        &:hover,
+        &:focus {
+            color: inherit;
+            border-color: $brand-pink;
+            transform: none;
+
+            // category image
+            > div:first-child {
+                opacity: 1;
+                background-size: 105%;
+            }
+        }
+    }
+
+    h1 {
+        font-size: $font-size-large;
+        margin-top: 0;
+        margin-bottom: $spacer / 4;
+    }
+}
+
+.minimal {
+    h1 {
+        margin-bottom: 0;
+    }
+}
+
+.assetList {
+    > a {
+        color: #d3a233;
+        border-bottom: 1px solid $brand2;
+        padding-top: $spacer / 2;
+        padding-bottom: $spacer / 2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &:hover,
+        &:focus {
+            color: $brand-pink;
+            transform: none;
+        }
+    }
+
+    h1 {
+        font-size: $font-size-base;
+        color: inherit;
+        margin: 0;
+    }
+}
+
+.description {
+    &,
+    p,
+    strong,
+    a,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-weight: $font-weight-base;
+        font-family: $font-family-base;
+        margin-bottom: 0;
+        font-size: $font-size-small;
+        color: $brand-black;
+    }
+}
+
+.date {
+    font-size: $font-size-small;
+    color: $brand-pink;
+}
+
+.assetFooter {
+    margin-top: $spacer;
+    font-size: $font-size-small;
+    color: #d3a233;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    font-size: $font-size-mini;
+
+    span {
+        color: $green;
+        font-size: $font-size-small;
+    }
+}

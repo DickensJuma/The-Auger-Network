@@ -1,0 +1,32 @@
+{
+  "title": "The Auger Network",
+  "description": "A Data marketplace to find and explore consumable relevant data.",
+  "company": "The Auger Network.",
+  "url": "https://commons.oceanprotocol.com",
+  "social": [
+    {
+      "title": "Site",
+      "url": "https://oceanprotocol.com"
+    },
+    {
+      "title": "Blog",
+      "url": "https://blog.oceanprotocol.com"
+    },
+    {
+      "title": "Twitter",
+      "url": "https://twitter.com/oceanprotocol"
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/oceanprotocol"
+    },
+    {
+      "title": "Gitter",
+      "url": "https://gitter.im/oceanprotocol/Lobby"
+    },
+    {
+      "title": "Telegram",
+      "url": "https://t.me/OceanProtocol_Community"
+    }
+  ]
+}
