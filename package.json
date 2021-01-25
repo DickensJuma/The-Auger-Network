@@ -3,6 +3,9 @@
   "description": "The Auger marketplace to explore, download, and publish open data sets.",
   "version": "2.0.0",
   "license": "Apache-2.0",
+  "engines": {
+    "node": "10.19.0"
+  },
   "scripts": {
     "install": "./scripts/install.sh",
     "start": "concurrently \"cd client && npm start\" \"cd server && npm start\"",
@@ -76,9 +79,6 @@
     },
     "npm": {
       "publish": false
-    },
-    "engines": {
-      "node": "10.19.0"
     }
   }
 }
